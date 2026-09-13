@@ -9,6 +9,18 @@
       "destination": "https://www.gopredict.app/_next/data/$1"
     },
     {
+      "source": "/_next/image(.*)",
+      "destination": "https://www.gopredict.app/_next/image$1"
+    },
+    {
+      "source": "/images/(.*)",
+      "destination": "https://www.gopredict.app/images/$1"
+    },
+    {
+      "source": "/brand/(.*)",
+      "destination": "https://www.gopredict.app/brand/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
