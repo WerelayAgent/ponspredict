@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://www.gopredict.app/api/$1"
+    },
+    {
+      "source": "/_next/data/(.*)",
+      "destination": "https://www.gopredict.app/_next/data/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
